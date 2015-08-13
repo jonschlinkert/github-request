@@ -2,20 +2,17 @@
   "name": "github-request",
   "version": "1.2.3",
   "description": "Simplified GitHub API requests.",
+  "homepage": "https://github.com/scottgonzalez/github-request",
+  "author": "Scott González <scott.gonzalez@gmail.com> (http://scottgonzalez.com)",
+  "repository": "scottgonzalez/github-request",
+  "bugs": "https://github.com/scottgonzalez/github-request/issues",
+  "licence": "MIT",
+  "main": "index.js",
   "keywords": [
     "github",
     "request"
   ],
-  "homepage": "https://github.com/scottgonzalez/github-request",
-  "bugs": "https://github.com/scottgonzalez/github-request/issues",
-  "author": {
-    "name": "Scott González",
-    "email": "scott.gonzalez@gmail.com",
-    "url": "http://scottgonzalez.com"
-  },
-  "main": "./lib/request.js",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/scottgonzalez/github-request.git"
+  "dependencies": {
+    "mixin-deep": "^1.1.1"
   }
 }
